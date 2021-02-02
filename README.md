@@ -1,7 +1,40 @@
 
 
 # Paang
+```
+apps/api/
+apps/web/
+libs/api/
+        - auth
+              - data-access (DB Access)
+              - feature (GraphQL)
+        - core
+              - data-access (DB Access)
+              - feature (GraphQL)
+        - list
+              - data-access (DB Access)
+              - feature (GraphQL)
 
+        - user
+              - data-access (DB Access)
+              - feature (GraphQL)
+
+(GraphQL SDK)
+
+libs/web/
+        - auth
+              - feature (Rutas)
+              - ui
+        - core
+              - feature (Rutas)
+              - ui
+        - shell
+              - feature (Rutas)
+              - ui
+        - user
+              - feature (Rutas)
+              - ui
+```
 This project was generated using [Nx](https://nx.dev).
 
 <p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
