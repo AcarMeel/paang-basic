@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@paang/api/core/feature": ["libs/api/core/feature/src/index.ts"],
+      "@paang/api/core/data-accesse": [
+        "libs/api/core/data-accesse/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
